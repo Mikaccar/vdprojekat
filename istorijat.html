@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="3D, usluzno stampanje, dizajn, modeling, licna kreacija">
+    <meta name="description" content="3DIdea, od ideje do realizovanog modela u malom">
+    <meta name="theme-color" content="#6366f1">
+    <meta name="author" content="Matija Mijailovic NRT-145/23, matijanrt14523@gs.viser.edu.rs">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/stil.css">
+<link rel="stylesheet" href="./css/novistil.css">
+    <title>3DIdea Istorijat</title>
+    <link rel="icon" href="./img/favicon.ico">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="img-thumbnail" src="./img/logo.png" width="150"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Početna stranica</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="onama.html">O nama</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galerija.html">Galerija</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="usluge.html">
+                  Usluge
+                </a>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kontakt.html">Kontakt</a>
+              </li>
+		 <li class="nav-item">
+                <a class="nav-link active" href="istorijat.html">Istorijat</a>
+              </li>
+ <li class="nav-item">
+                <a class="nav-link" href="velicine.html">Veličine</a>
+              </li>
+ <li class="nav-item">
+                <a class="nav-link" href="tim.html">Tim</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+    <main style="background: var(--color-bg, #f5f3ff);">
+      <section style="padding: 48px 0;">
+        <div class="container">
+          <div class="row align-items-center g-4">
+            <div class="col-12 col-lg-7">
+              <h1 style="color: var(--color-primary, #6366f1); font-weight: 800; letter-spacing: .2px; margin-bottom: .5rem;">
+                Istorijat i razvoj
+              </h1>
+              <p style="color:#3b3b55; font-size: 1.05rem; margin-bottom: .75rem;">
+                Kratak pregled prelomnih trenutaka u nastanku 3DBrain brenda — kako smo od prvih <em>FDM</em> mašina došli do <abbr title="Stereolithography">SLA</abbr> preciznosti i malih serija, kako smo od malog tima postali prvaci Balkana u svome poslu na mnogim takmičenjima.
+              </p>
+              <p style="color:#3b3b55; margin-bottom: 0;">
+                Početak: <time datetime="2019-03-01">mart 2019.</time> • Prva radionica: <time datetime="2020-11">novembar 2020.</time> •
+                Aktivni projekti: <data value="128">10+</data>
+              </p>
+              <div class="mt-3">
+                <button class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#leaveModal" style="border-radius: 12px; box-shadow: 0 8px 22px rgba(99,102,241,.18);">
+                  Video demo
+                </button>
+                <span style="margin-left:12px; color:#6b6b8a; font-size:.95rem;">
+                  Pritisnite <kbd>Esc</kbd> da zatvorite modal.
+                </span>
+              </div>
+            </div>
+            <div class="col-12 col-lg-5">
+<div id="histCarousel" class="carousel slide" data-bs-ride="carousel" style="border-radius:14px; overflow:hidden;">
+  <div class="carousel-indicators" style="margin-bottom:8px;">
+    <button type="button" data-bs-target="#histCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="width:10px;height:10px;border-radius:50%;"></button>
+    <button type="button" data-bs-target="#histCarousel" data-bs-slide-to="1" aria-label="Slide 2" style="width:10px;height:10px;border-radius:50%;"></button>
+    <button type="button" data-bs-target="#histCarousel" data-bs-slide-to="2" aria-label="Slide 3" style="width:10px;height:10px;border-radius:50%;"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2600">
+      <img src="./img/3dhaus.jpg" class="d-block w-100" alt="Rani projekti 1" style="height:280px; object-fit:cover;">
+      </div>
+    <div class="carousel-item" data-bs-interval="2600">
+      <img src="./img/3dawa.jpg" class="d-block w-100" alt="Rani projekti 2" style="height:280px; object-fit:cover;">
+    </div>
+    <div class="carousel-item" data-bs-interval="2600">
+      <img src="./img/3droomse.jpg" class="d-block w-100" alt="Rani projekti 3" style="height:280px; object-fit:cover;">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#histCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#histCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: 8px 0 28px;">
+        <div class="container">
+          <h2 style="color: var(--color-primary, #6366f1); font-weight:800; margin-bottom: .75rem;">Milestone-i</h2>
+          <ul class="list-group" style="box-shadow: 0 10px 28px rgba(139,92,246,.12); border-radius:12px;">
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="border:0; border-bottom:1px solid #eee;">
+              Prvi funkcionalni prototip <small style="color:#6b6b8a;">(PLA)</small>
+              <span class="badge rounded-pill" style="background: var(--color-secondary, #8b5cf6);">2019</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="border:0; border-bottom:1px solid #eee;">
+              Radionica i proširenje kapaciteta <small style="color:#6b6b8a;">(2× FDM)</small>
+              <span class="badge rounded-pill" style="background: var(--color-secondary, #8b5cf6);">2020</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center" style="border:0;">
+              Prva nagrada na takmičenju ( 2. mesto ) <small style="color:#6b6b8a;">(SLA)</small>
+              <span class="badge rounded-pill" style="background: var(--color-secondary, #8b5cf6);">2022</span>
+            </li>
+          </ul>
+          <p style="margin-top:.6rem; color:#3b3b55;"><mark style="background:#efeaff;">Napomena:</mark> Godine su indikativne; neke aktivnosti su trajale duže.</p>
+        </div>
+      </section>
+      <section style="padding: 8px 0 28px;">
+        <div class="container">
+          <div class="row align-items-center g-3">
+            <div class="col-12 col-md-8">
+              <div class="progress" style="height: 20px; border-radius: 999px; background:#ebe9ff;">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                     style="width: 70%; background: linear-gradient(90deg, var(--color-primary, #6366f1), var(--color-secondary, #8b5cf6));">
+                  70%
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <p style="margin:0; color:#3b3b55;">Napredak na dokumentovanju istorijata — cilj je 100% do kraja <time datetime="2025-12">2025.</time></p>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: 8px 0 40px;">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-12 col-lg-6">
+              <blockquote cite="https://reprap.org/" style="margin:0; padding:14px 16px; background:#fff; border-left:4px solid var(--color-primary, #6366f1); border-radius:8px; box-shadow:0 8px 20px rgba(99,102,241,.08);">
+                „Otvoreni dizajn i zajednica omogućili su eksploziju inovacija u 3D štampi.”
+                <footer style="margin-top:.35rem; color:#6b6b8a;">— Reprap community</footer>
+              </blockquote>
+              <details style="margin-top:10px; background:#fff; border:1px solid #eee; border-radius:8px; padding:10px 12px;">
+                <summary style="cursor:pointer; color:var(--color-secondary, #8b5cf6); font-weight:700;">Terminologija</summary>
+                <dl style="margin: .5rem 0 0;">
+                  <dt style="font-weight:700;">FDM</dt>
+                  <dd style="margin-left:0; color:#3b3b55;">Fused Deposition Modeling — taloženje topljenog filamenta sloj po sloj.</dd>
+                  <dt style="font-weight:700;">SLA</dt>
+                  <dd style="margin-left:0; color:#3b3b55;">Stereolitografija — UV očvršćavanje fotopolimerne smole.</dd>
+                </dl>
+              </details>
+            </div>
+            <div class="col-12 col-lg-6">
+              <figure style="margin:0; background:#fff; border:1px solid #eee; border-radius:12px; overflow:hidden; box-shadow:0 10px 24px rgba(139,92,246,.12);">
+                <img src="./img/3dwork.jpg" alt="Rani modeli" style="width:100%; height:220px; object-fit:cover;">
+                <figcaption style="padding:10px 12px; color:#3b3b55;">
+                  Primeri iz 2020 — neka rešenja su nastala slučajno, uz <samp>trial &amp; error</samp> pristup; danas koristimo simulacije i proračune (<var>σ</var>, <var>E</var>).
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="modal fade" id="leaveModal" tabindex="-1" aria-labelledby="leaveModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content" style="border-radius: 14px;">
+            <div class="modal-header" style="border:0; background:linear-gradient(90deg, var(--color-primary, #6366f1), var(--color-secondary, #8b5cf6)); color:#fff;">
+              <h5 class="modal-title" id="leaveModalLabel">Napustiti stranicu?</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="color:#3b3b55;">
+              Otvorićemo YouTube video u novom tabu.
+            </div>
+            <div class="modal-footer" style="border:0;">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal" style="border-radius:10px;">Zatvori</button>
+              <button type="button" id="leaveBtn" class="btn btn-success" style="border-radius:10px;">Uđi u video</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        (function(){        
+          const leaveBtn = document.getElementById('leaveBtn');
+          if (leaveBtn) {
+            leaveBtn.addEventListener('click', function(){
+              const url = "https://www.youtube.com/watch?v=ftQZEUGjo98";
+              window.open(url, "_blank", "noopener");
+              const modalEl = document.getElementById('leaveModal');
+              if (modalEl) {
+                const modal = bootstrap.Modal.getInstance(modalEl) || new bootstrap.Modal(modalEl);
+                modal.hide();
+              }
+            });
+          }
+        })();
+      </script>
+    </main>
+ <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+              <a href = "#">
+                <h1>3DBrain</h1>
+                <p>Smisli pa napravi!</p>
+              </a>
+              </div>
+              <div class="footer-columns">
+                <div class="footer-column">
+                  <h4>Koncept koji razumete</h4>
+                  <p>3DIdea je inovator uslužnog 3D dizajna za lične i poslovne potrebe, pružamo sve vrste podrške, popravki, analiza, ukrašavamo vašu svakodnevnicu sa ukusom i funkcionalno, i borimo se za ekološki svesniji svet jednakom snagom.</p>
+                  <a href="onama.html">Želite još?</a>
+                </div>
+                <div class="footer-column">
+                  <h4>Info</h4>
+                  <a href="onama.html">O nama</a>
+                  <a href="kontakt.html">Kontakt</a>
+                  <a href="faq.html">FAQ</a>
+                  <a href="mapasajta.html">Mapa sajta</a>
+                  <a href="galerija.html">Galerija</a>
+                </div>
+               
+                <div class="footer-column">
+                  <h4>Nađite nas:</h4>
+                  <p>Adresa: Dušanova 99</p>
+                  <a href="mailto:matijanrt14523@gs.viser.edu.rs"><p>Email:matijanrt14523@gs.viser.edu.rs</p></a>
+                  <a href="tel:+381123456789"><p>Telefon:+381 12 3456 789</p></a>
+                  <p>Elektronsko plaćanje: </p>
+                  <div class="payment-options">
+                    <img src="./img/payment.png" alt="OpcijeZaPlaćanje">
+                  </div>
+                </div>
+              </div>
+              <div class="footer-social">
+                <div class="social-links">
+                  <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+       </footer>
+       <div class="copyright">
+        <div class="copyright-content">
+          <div>
+            <div>
+              <span><a href="#">3DIdea</a><i class="fa-solid fa-copyright"></i>, Sva prava zadržana </span>             
+            </div>
+            <div>
+              Napravio <a href="https://lectio3.viser.edu.rs/">Matija Mijailović NRT-145/23</a>  
+            </div>
+          </div>
+        </div>
+       </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./fontawesome/js/all.min.js"></script>
+</body>
+</html>
